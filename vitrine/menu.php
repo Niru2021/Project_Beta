@@ -12,7 +12,7 @@
 						<button class="dropbtn"><a href="nord.php">SOLUTION</a></button>
 					</li>
 					<li class="dropdown">
-						<button class="dropbtn"><a href="sud.php">PERPECTIVE</a></button>
+						<button class="dropbtn"><a href="perspective.php">PERPECTIVE</a></button>
 					</li>
 					<li class="dropdown">
 						<button class="dropbtn"><a href="contact.php">NOUS CONTACTER</a></button>
