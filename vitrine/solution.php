@@ -5,18 +5,22 @@
 	<?php include("menu.php");?>
 	<section id="showcase" style="background-image: url('./img/solution.jpg');">
 		<div class="container">
-			<h1><span>ENZO LE RIGOLO</span></h1>
+			<h1><span>Solution</span></h1>
 		</div>
 	</section>
 	<?php include("barre de recherche.php");?>
 	<div id="boxes"> 
 		<div class="box1">
-			<img src="img/nord-1-3.jpg" alt="photo du temple de nallur"
-			title="https://www.srilankainstyle.com/storage/app/media/Locations/jaffna.jpg">
+			<img src="img/bien.png" 
+			>
 			<div class="para1">
 				<a href="nord-jaffna.php">
 					<h2>
-						JAFFNA
+						<p>
+							<br>Des gens rempli de bonne humeur et de créativité
+
+</br>
+</p>
 					</h2>
 				</a>
 			</div>	
@@ -24,23 +28,14 @@
 		<div class="box2">
 			<img src="img/nord-2-2.jpg" alt="photo lors d'une parade religieuse hindou">
 			<div class="para2">
-				<a href="nord-point-pedro.php">
-					<h2>
-						POINT PEDRO
-					</h2>
+			
+					
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.
+</p>
 				</a>
 			</div>	
 		</div>
-		<div class="box1">
-			<img src="img/nord-3-2.jpg" alt="temple hindou">
-			<div class="para1">
-				<a href="nord-nainativu.php">
-					<h2>
-						NAINATIVU
-					</h2>
-				</a>
-			</div>	
-		</div>
+		
 	</div>
 	<?php include("pied.php");?>
   </body>
