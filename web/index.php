@@ -1,1 +1,1 @@
-bienvenue
+<?php include("commun/header.php");?>

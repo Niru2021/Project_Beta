@@ -1,0 +1,127 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:Arial;
+    font-size:0.85em;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: #EEE;
+}
+@media (min-width: 1920px), (min-height: 950px)
+{
+    body{
+        font-size: 1.2em;
+    }
+}
+
+/****** barre de nav du haut  *************/
+.barre_du_haut{
+    height: 6vh;
+    min-height: 40px;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.barre_droit{
+    position: relative;
+    top:20%;
+    float: right;
+    height: 60%;
+    text-align: center;    
+    padding-right: 1vw;
+}
+.barre_gauche{
+    height: 100%;
+    float: left;
+}
+.barre_gauche>img{
+    height: 100%;
+    display: block;
+}
+#type_compte{
+    margin-right: 15px;
+    background-color: #666;
+    color: #FFF;
+    border: none;
+    font-size: 1.1em;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    padding: 2px;
+}
+#nom_prenom{
+    font-size:1.2em;
+    font-weight: bold;
+    color:#006EB0;    
+    padding-right: 1vw;
+}
+/****btn log out ********/
+.log-out {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    border: 3px solid;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid transparent;
+    color: #006EB0;
+}
+.log-out::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 10px;
+    width: 3px;
+    background: currentColor;
+    left: 6px;
+    bottom: 6px;
+}
+.log-out:hover{
+    color: grey;
+}
+
+
+
+
+
+/****btn log out ********/
+.log-out {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    border-radius: 20px;
+    border: 3px solid;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid transparent;
+    color: #006EB0;
+}
+.log-out::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    height: 10px;
+    width: 3px;
+    background: currentColor;
+    left: 6px;
+    bottom: 6px;
+}
+.log-out:hover{
+    color: grey;
+}
+
+
+
