@@ -4,7 +4,7 @@
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
             <link rel="stylesheet" href="style/style.css">
             <link rel="icon" href="image/favicon.png" />
-            <script type="text/javascript" src="javascript/central.js"></script>
+            <script type="text/javascript" src="js/header.js"></script>
             <title>RH Analytics</title>
         </head>
         <body>  
