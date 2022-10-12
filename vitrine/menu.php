@@ -6,7 +6,7 @@
 			<nav>
 				<ul>
 					<li class="dropdown">
-						<button class="dropbtn"><a href="colombo.php">PRODUIT</a></button>
+						<button class="dropbtn"><a href="produit.php">PRODUIT</a></button>
 					</li>
 					<li class="dropdown">
 						<button class="dropbtn"><a href="solution.php">SOLUTION</a></button>
