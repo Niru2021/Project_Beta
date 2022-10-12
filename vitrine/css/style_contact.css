@@ -40,24 +40,25 @@
 
 #contact1 {
 	width:40%;
-	margin-right:10%;
+	margin-right:30%;
+	margin-left:30%;
 	margin-bottom:3%;
 	float:right;
 	font-family: 'segoeuil';
 }
 fieldset {
-	border-color:#016B80;		
+	border-color:##016B80;		
 }
 fieldset p {
 	margin-left:5%;
 }
 #butt-form input[type="submit"] {
 	margin-left:10%;
-	height:37px;
+	height:37px 
 	width:200px;
 	background-color:#016B80;
 	border:0px;
-	color:#ffffff;	
+	color:#016B80;	
 }
 #butt-form input[type="submit"]:hover {
 	background-color:#016B80;
