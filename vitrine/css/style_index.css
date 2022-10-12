@@ -1,0 +1,96 @@
+#boxes {						/*corps de la page*/
+	padding-top:100px;
+}
+#boxes .box{
+	float:left;
+	text-align:center;
+	padding:25px;
+	margin : auto;
+	margin-bottom:5%;
+}
+#boxes .box img{
+	width:30%;
+	float:right;
+	border-top:solid 25px #006EB0;
+	border-left:solid 25px #006EB0;
+}
+#boxes .box p {
+	width:40%;
+	float:left;
+	font-family: 'segoeuil';
+	font-size:17px;
+	border-bottom:solid 20px #006EB0;
+	border-right:solid 20px #006EB0;
+	margin-top:5%;
+	margin-left:7%;
+	padding-right:1%;
+	padding-bottom:1%;
+}
+#boxes h1 {
+	padding-top:5%;
+	margin-left:13%;
+	font-size : 55px;
+	font-family: 'seguibl';
+	line-height:55px;
+	float:left;
+}
+
+
+
+
+#bas {										/*bandeau du bas*/
+	background:no-repeat center;
+	min-height:500px;
+	max-width:100%;
+	clear:both;
+}
+#bas h1{
+	float:right;
+	margin-top:50px;
+	padding:0;
+	font-size : 55px;
+	font-family: 'seguibl';
+	line-height:55px;
+	color: white;
+}
+#bas-titre{
+	width:80%;
+	margin:auto;
+	clear:both;
+}
+
+
+
+
+#index {							/*google maps*/
+	margin-top:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

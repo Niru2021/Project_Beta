@@ -1,0 +1,77 @@
+#gif {
+	padding:auto;
+	padding-top:2%;
+	margin:auto;
+	width:20%;
+}
+
+
+
+
+#boxes {
+	font-family: 'segoeuil';
+	width :40%;
+	margin-left:10%;
+	float:left;
+}
+#boxes .box{
+	text-align:center;
+	padding:auto;
+	margin:auto;
+	clear:both;
+}
+#boxes h1{
+	margin:0;
+	padding-top:5%;
+	padding-bottom:5%;
+	float:none;
+	color:#06C317;
+	font-family: 'segoeuil';
+	text-decoration:underline;
+	font-size:35px;
+	line-height:0;
+}
+#boxes .box a{
+	font-size:25px;
+	text-decoration:none;
+	color:black;
+}
+#boxes .box a:hover{
+	text-decoration:underline;
+	color:blue;
+}
+
+
+
+
+#contact1 {
+	width:40%;
+	margin-right:10%;
+	margin-bottom:3%;
+	float:right;
+	font-family: 'segoeuil';
+}
+fieldset {
+	border-color:##016B80;		
+}
+fieldset p {
+	margin-left:5%;
+}
+#butt-form input[type="submit"] {
+	margin-left:10%;
+	height:37px;
+	width:200px;
+	background-color:##016B80;
+	border:0px;
+	color:white;	
+}
+#butt-form input[type="submit"]:hover {
+	background-color:#016B80;
+}
+
+
+
+
+footer {
+	margin-top:2%;
+}
