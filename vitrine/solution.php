@@ -3,7 +3,7 @@
   </head>
   <body>
 	<?php include("menu.php");?>
-	<section id="showcase" style="background-image: url('./img/nord-1-1.jpg');">
+	<section id="showcase" style="background-image: url('./img/solution.jpg');">
 		<div class="container">
 			<h1><span>NORD</span></h1>
 		</div>
