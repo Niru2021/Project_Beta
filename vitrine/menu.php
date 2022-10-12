@@ -15,7 +15,7 @@
 						<button class="dropbtn"><a href="sud.php">PERPECTIVE</a></button>
 					</li>
 					<li class="dropdown">
-						<button class="dropbtn"><a href="historique.php">NOUS CONTACTER</a></button>
+						<button class="dropbtn"><a href="contact.php">NOUS CONTACTER</a></button>
 				</ul>
 			</nav>
 			</div>				
