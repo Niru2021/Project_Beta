@@ -3,14 +3,14 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
             <link rel="stylesheet" href="style/style.css">
-            <link rel="icon" href="img/favicon.png" />
+            <link rel="icon" href="image/favicon.png" />
             <script type="text/javascript" src="javascript/central.js"></script>
             <title>RH Analytics</title>
         </head>
         <body>  
         <div class="barre_du_haut">    
             <div class="barre_gauche">
-                <img src="img/logo_CLAAS.jpg" onclick='document.location.href = "index.php"'></img>
+                <img src="image/logo.png" onclick='document.location.href = "index.php"'></img>
             </div>
             <div class="barre_droit">  
                 <table>
