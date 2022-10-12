@@ -1,12 +1,12 @@
 <?php include("intro.php");?>
-    <title>Sri Lanka | Sud</title>
+    <title>perspective</title>
   </head>
   <body>
 	<?php include("menu.php");?>
 	<section id="showcase" style="background-image: url('img/sud-3-1.jpg');"
 	title="https://www.nationalgeographic.com/content/dam/archaeologyandhistory/rights-exempt/history-magazine/2019/09-10/sigiriya/03-sigiriya-rock.adapt.1900.1.jpg">
 		<div class="container">
-			<h1><span>SUD</span></h1>
+			<h1><span>L'AVENIR</span></h1>
 		</div>
 	</section>
 	<?php include("barre de recherche.php");?>
@@ -16,7 +16,7 @@
 			<div class="para1">
 				<a href="sud-trincomalai.php">
 					<h2>
-						TRIINCOMALAI
+						"VIDE"
 					</h2>
 				</a>
 			</div>	
@@ -27,7 +27,7 @@
 			<div class="para2">
 				<a href="sud-kandy.php">
 					<h2>
-						KANDY
+						"ENCORE VIDE"
 					</h2>
 				</a>
 			</div>	
@@ -38,7 +38,7 @@
 			<div class="para1">
 				<a href="sud-sigriya.php">
 					<h2>
-						SIGIRIYA
+						"TOUJOURS VIDE"
 					</h2>
 				</a>
 			</div>	
