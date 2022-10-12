@@ -7,7 +7,9 @@ function conn_bdd()
     $connectionInfo = array("UID" => "admin_hr_grp_dev", "pwd" => 'spn+3443,2Pqf#2qU=N=E7Y$Y', "Database" => "DB_RH_Analytic", "LoginTimeout" => 30, "Encrypt" => 1, "TrustServerCertificate" => 0);
     $serverName = "tcp:epsi-i1.database.windows.net,1433";
     $conn = sqlsrv_connect($serverName, $connectionInfo);
-    
+    if( $conn === false ) {
+     die( print_r( sqlsrv_errors(), true));
+    }
     $sql = "select lb_domaine from tb_competences GROUP BY lb_domaine";
     $result = sqlsrv_query($conn, $sql);
     if($result === false) {
