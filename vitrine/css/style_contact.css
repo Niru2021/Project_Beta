@@ -19,7 +19,7 @@
 	padding-top:5%;
 	padding-bottom:5%;
 	float:none;
-	color:white;
+	color:#006EB0;
 	font-family: 'segoeuil';
 	text-decoration:underline;
 	font-size:35px;
@@ -46,7 +46,7 @@
 	font-family: 'segoeuil';
 }
 fieldset {
-	border-color:##016B80;		
+	border-color:#016B80;		
 }
 fieldset p {
 	margin-left:5%;
