@@ -18,7 +18,7 @@ id="gmap_canvas" src="https://maps.google.com/maps?q=epsi%20puteaux&t=&z=13&ie=U
 	<section id="boxes">
 		<div class="box">
 			<img src="img/stat.jpg" >
-			<h1>RH lalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</h1>
+			<h1>RH Analytics</h1>
 			<p>
 			<br>RH Analytics est une solution permettant d'exploiter les données SIRH afin d'améliorer l'évolutions des employés et de leurs donner un meilleur cadre de travail. En effet toutes les données sont mise au profit de l'amelioration continue du bien être au travail de chaque collaborateur. On prend en compte le poste actuel, la durée du derniere poste, les soft skill
 			<br>
