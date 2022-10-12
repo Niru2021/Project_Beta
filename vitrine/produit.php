@@ -45,8 +45,6 @@
 			</div>	
 		</div>
 	</div>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63371.81529707356!2d79.82118599010654!3d6.921837369638966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae253d10f7a7003%3A0x320b2e4d32d3838d!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sfr!2sfr!4v1572580435638!5m2!1sfr!2sfr" allowfullscreen="">
-	</iframe>
 	<?php include("pied.php");?>
   </body>
 </html>

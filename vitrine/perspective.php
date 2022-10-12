@@ -1,12 +1,12 @@
 <?php include("intro.php");?>
-    <title>Sri Lanka | Sud</title>
+    <title>perspective</title>
   </head>
   <body>
 	<?php include("menu.php");?>
 	<section id="showcase" style="background-image: url('img/sud-3-1.jpg');"
 	title="https://www.nationalgeographic.com/content/dam/archaeologyandhistory/rights-exempt/history-magazine/2019/09-10/sigiriya/03-sigiriya-rock.adapt.1900.1.jpg">
 		<div class="container">
-			<h1><span>SUD</span></h1>
+			<h1><span>L'AVENIR</span></h1>
 		</div>
 	</section>
 	<?php include("barre de recherche.php");?>
@@ -16,7 +16,7 @@
 			<div class="para1">
 				<a href="sud-trincomalai.php">
 					<h2>
-						TRIINCOMALAI
+						"VIDE"
 					</h2>
 				</a>
 			</div>	
@@ -27,7 +27,7 @@
 			<div class="para2">
 				<a href="sud-kandy.php">
 					<h2>
-						KANDY
+						"ENCORE VIDE"
 					</h2>
 				</a>
 			</div>	
@@ -38,14 +38,12 @@
 			<div class="para1">
 				<a href="sud-sigriya.php">
 					<h2>
-						SIGIRIYA
+						"TOUJOURS VIDE"
 					</h2>
 				</a>
 			</div>	
 		</div>
 	</div>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d827177.2918936297!2d80.66079994773095!3d7.526758032917514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae344d7d465445d%3A0x7e8a7802c1e08eae!2sProvince%20du%20Ctre%2C%20Sri%20Lanka!5e0!3m2!1sfr!2sfr!4v1572614994858!5m2!1sfr!2sfr" allowfullscreen="">
-</iframe>
 	<?php include("pied.php");?>
   </body>
 </html>
