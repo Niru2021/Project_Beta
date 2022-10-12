@@ -58,7 +58,7 @@ body{
 #nom_prenom{
     font-size:1.2em;
     font-weight: bold;
-    color:#AAAE25;    
+    color:#006EB0;    
     padding-right: 1vw;
 }
 /****btn log out ********/
@@ -72,7 +72,7 @@ body{
     width: 20px;
     height: 20px;
     border-top: 3px solid transparent;
-    color: #AAAE25;
+    color: #006EB0;
 }
 .log-out::before {
     content: "";
@@ -105,7 +105,7 @@ body{
     width: 20px;
     height: 20px;
     border-top: 3px solid transparent;
-    color: #AAAE25;
+    color: #006EB0;
 }
 .log-out::before {
     content: "";
