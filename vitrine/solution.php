@@ -5,7 +5,7 @@
 	<?php include("menu.php");?>
 	<section id="showcase" style="background-image: url('./img/solution.jpg');">
 		<div class="container">
-			<h1><span>NORD</span></h1>
+			<h1><span>ENZO LE RIGOLO</span></h1>
 		</div>
 	</section>
 	<?php include("barre de recherche.php");?>
