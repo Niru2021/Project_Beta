@@ -46,7 +46,7 @@
 	font-family: 'segoeuil';
 }
 fieldset {
-	border-color:##016B80;		
+	border-color:#016B80;		
 }
 fieldset p {
 	margin-left:5%;
@@ -55,9 +55,9 @@ fieldset p {
 	margin-left:10%;
 	height:37px;
 	width:200px;
-	background-color:##016B80;
+	background-color:#016B80;
 	border:0px;
-	color:white;	
+	color:#ffffff;	
 }
 #butt-form input[type="submit"]:hover {
 	background-color:#016B80;
