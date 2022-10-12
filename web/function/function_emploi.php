@@ -1,55 +1,29 @@
 <?php
+
 function ajout_emploi()
 {
     echo '<form action="emploi.php" method="post">';
     echo '<input id="site" name="site" type="hidden">';
     echo "<table class='emploi_2_1' id='change_canvas'>  
-            <tr>
+            <tr>  
                 <td>
-                    Identifiant :
+                        Nom du poste :
                 </td>
                 <td>
-                    <input type='text' class='change_3_4' id='Search_ID' maxlength='10'> <button class='change_3_1' onclick='change_recherche_id()'>Recherche</button>
+                    <input type='text' name='nom_du_poste' required >
                 </td>
             </tr>
             <tr>  
                 <td>
+                        Service :
                 </td>
                 <td>
-                    <select name='resultat_id' required class='change_3_5' id='resultat_search_id'>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Numéro de Série :
-                </td>
-                <td>
-                    <input type='text' class='change_3_4' id='sn_change_remise_telephone_stock' maxlength='20'> <button class='change_3_1' onclick='change_recherche_tel()'>Recherche</button>
-                </td>
-            </tr>
-            <tr>  
-                <td>
-                </td>
-                <td>
-                    <select name='resultat_sn' required class='change_3_5' id='resultat_search_sn'>
-                    </select>
-                </td>
-            </tr>
-            <tr>  
-                <td>
-                        Numéro :
-                </td>
-                <td>
-                    <input type='text' name='num_iphone_change_remise_telephone_stock' required class='change_3_4' id='num_change_remise_telephone_stock' minlenght='10' maxlength='10' onchange='change_verif_num()'> <div id='change_verif_num'></div>
-                </td>
-            </tr>
-            <tr>  
-                <td>
-                        Mot de passe iCloud :
-                </td>
-                <td>
-                    <input type='text' name ='mdp_icloud_change_remise_telephone_stock' required class='change_3_4' id='mdp_icloud_change_remise_telephone_stock' maxlength='20'>
+                    <select name='service_du_poste' required >";
+                for($i=0;$i<sizeof(service);$i++)
+                {
+                    echo "<option value='".service[$i]."'>".service[$i]."</option>";
+                }
+                echo"</select>
                 </td>
             </tr>
             <tr>  

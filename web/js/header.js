@@ -13,7 +13,7 @@ function type_compte()
     {
         document.location.href="formation.php"
     }
-    else
+    else if(type_compte==4)
     {
         document.location.href="analyse.php"
     }

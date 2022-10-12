@@ -1,3 +1,7 @@
+<?php
+require_once('variable.php');
+require_once('./function/function.php');
+?>
 <!DOCTYPE html>
         <html lang="fr">
         <head>
@@ -17,6 +21,7 @@
                     <tr>
                     <td>
                     <select name="type_compte" id="type_compte" onchange='type_compte()'>
+                        <option value="0">Navigation</option>
                         <option value="1">Mon profil</option>
                         <option value='2'>Emploie</option>
                         <option value='3'>Formation</option>
