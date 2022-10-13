@@ -10,7 +10,7 @@ body{
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: #EEE;
+    background-color: #f6f6f9;
 }
 @media (min-width: 1920px), (min-height: 950px)
 {
@@ -90,38 +90,19 @@ body{
     color: grey;
 }
 
-
-
-
-
-/****btn log out ********/
-.log-out {
-    box-sizing: border-box;
-    position: relative;
-    display: block;
-    border-radius: 20px;
-    border: 3px solid;
-    transform: scale(var(--ggs,1));
-    width: 20px;
-    height: 20px;
-    border-top: 3px solid transparent;
-    color: #006EB0;
-}
-.log-out::before {
-    content: "";
-    display: block;
-    box-sizing: border-box;
-    position: absolute;
-    border-radius: 3px;
-    height: 10px;
-    width: 3px;
-    background: currentColor;
-    left: 6px;
-    bottom: 6px;
-}
-.log-out:hover{
-    color: grey;
+/**** LOADER ****/
+.loader {
+    border: 0.5vw solid #f3f3f3; /* Light grey */
+    border-top: 0.5vw solid #006EB0; /* Blue */
+    border-radius: 50%;
+    width: 2vw;
+    height: 2vw;
+    animation: spin 2s linear infinite;
+    margin : auto;
 }
 
-
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
 

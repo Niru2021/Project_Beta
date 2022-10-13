@@ -1,0 +1,34 @@
+/****btn_page_1****/
+#emploi_1_1{
+    width: 80%;
+    margin: auto;
+    border-spacing: 5.5em 1.5rem;
+    padding: 2%;
+}
+.emploi_1_2{
+    background-color: #006EB0;
+    width: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.8);
+    color: #FFF;
+    padding: 10px;
+    border-radius: 20px;
+}
+.emploi_1_2:hover{
+    background-color: #EEE;
+    color: #006EB0;
+}
+
+/****page ajout emploi****/
+.emploi_2_1{
+    width:40%;
+    margin: auto;
+    margin-top: 3%;
+    border-spacing: 5px 1.2rem;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.8);
+    background-color: #eee;
+    color: #006EB0;
+    padding: 1% 2%;
+}
