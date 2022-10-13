@@ -29,7 +29,7 @@ require_once('./function/function.php');
                     </select>
                     </td>
                     <td>
-                    <div id="nom_prenom">Jean-Paul GAUTHIER</div>
+                    <div id="nom_prenom">Victor MOHANDI</div>
                     </td>
                     <td>
                         <a href="deconnexion.php">

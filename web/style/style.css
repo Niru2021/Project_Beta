@@ -92,13 +92,14 @@ body{
 
 /**** LOADER ****/
 .loader {
-    border: 0.5vw solid #f3f3f3; /* Light grey */
+    border: 0.5vw solid #bbb; /* Light grey */
     border-top: 0.5vw solid #006EB0; /* Blue */
     border-radius: 50%;
     width: 2vw;
     height: 2vw;
     animation: spin 2s linear infinite;
     margin : auto;
+    margin-top: 5%;
 }
 
 @keyframes spin {
