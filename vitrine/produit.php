@@ -23,7 +23,7 @@
 			</div>	
 		</div>
 		<div class="box2">
-			<img src="img/capital-2-1.jpg" alt="photo du parc galle face green"
+			<img src="img/competence.jpg" alt="competence"
 			title="https://ja.m.wikipedia.org/wiki/ファイル:Colombo_-_Galle_Face.jpg">
 			<div class="para2">
 				<a href="colombo-galle-face-green.php">
