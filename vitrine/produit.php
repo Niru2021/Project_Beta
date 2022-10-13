@@ -11,35 +11,35 @@
 	<?php include("barre de recherche.php");?>
 	<div id="boxes"> 
 		<div class="box1">
-			<img src="img/capital-1-2.jpg" alt="photo du musée national de colombo"
+			<img src="img/sirh.png" alt="sirh"
 			title="https://fr.wikipedia.org/wiki/Fichier:PSM_V71_D493_Colombo_city_museum_1896.jpg">
 			<div class="para1">
 				<a href="colombo-musee-national.php">
 					<h2>
-						MUSEE NATIONAL <br>
-						DE COLOMBO
+					Analyse des données SIRH afin de modéliser graphiquement ou quantifier celle-ci
+						
 					</h2>
 				</a>
 			</div>	
 		</div>
 		<div class="box2">
-			<img src="img/capital-2-1.jpg" alt="photo du parc galle face green"
+			<img src="img/competence.jpg" alt="competence"
 			title="https://ja.m.wikipedia.org/wiki/ファイル:Colombo_-_Galle_Face.jpg">
 			<div class="para2">
 				<a href="colombo-galle-face-green.php">
 					<h2>
-						GALLE FACE GREEN
+					Analyser et regrouper les collaborateurs éligibles au emplois publiés
 					</h2>
 				</a>
 			</div>	
 		</div>
 		<div class="box1">
-			<img src="img/capital-3-3.jpg" alt="photo du parc avec une statue de bouda"
+			<img src="img/learning.jpg" alt="learning"
 			title="https://www.flickr.com/photos/davidstanleytravel/43700702964">
 			<div class="para1">
 				<a href="colombo-viharamahadevi-park.php">
 					<h2>
-						VIHARAMAHADEVI PARK
+					Ajouter ses compétences sur sa fiche personnel<br>et<br>Proposer des formations aux collaborateurs (plateforme d’apprentissage).
 					</h2>
 				</a>
 			</div>	

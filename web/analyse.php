@@ -1,4 +1,5 @@
-<?php include("commun/header.php");?>
+<?php /** */include("commun/header.php");?>
+
 <style>
     :root{
         --color-primary:#7380ec;
