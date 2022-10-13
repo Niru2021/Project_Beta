@@ -59,6 +59,7 @@
 				</td>
 				<td>
 					<select name="pays">
+						<option value="France">France</option>
 						<option value="Afghanistan">Afghanistan</option>
 						<option value="Afrique_du_Sud">Afrique du Sud</option>
 						<option value="Albanie">Albanie</option>
