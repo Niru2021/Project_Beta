@@ -34,12 +34,12 @@
 			</div>	
 		</div>
 		<div class="box1">
-			<img src="img/capital-3-3.jpg" alt="photo du parc avec une statue de bouda"
+			<img src="img/learning.jpg" alt="learning"
 			title="https://www.flickr.com/photos/davidstanleytravel/43700702964">
 			<div class="para1">
 				<a href="colombo-viharamahadevi-park.php">
 					<h2>
-					Donner la possibilité aux collaborateurs d’ajouter des compétences sur sa fiche personnel<br>et<br>Proposer des formations aux collaborateurs (plateforme d’apprentissage).
+					Ajouter ses compétences sur sa fiche personnel<br>et<br>Proposer des formations aux collaborateurs (plateforme d’apprentissage).
 					</h2>
 				</a>
 			</div>	
