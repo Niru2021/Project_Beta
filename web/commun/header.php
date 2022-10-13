@@ -23,7 +23,7 @@ require_once('./function/function.php');
                     <select name="type_compte" id="type_compte" onchange='type_compte()'>
                         <option value="0">Navigation</option>
                         <option value="1">Mon profil</option>
-                        <option value='2'>Emploie</option>
+                        <option value='2'>Emploi</option>
                         <option value='3'>Formation</option>
                         <option value='4'>Analyse</option>
                     </select>
