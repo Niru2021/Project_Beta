@@ -16,8 +16,8 @@
 			<div class="para1">
 				<a href="colombo-musee-national.php">
 					<h2>
-						MUSEE NATIONAL <br>
-						DE COLOMBO
+					Analyse des données SIRH afin de modéliser graphiquement ou quantifier celle-ci
+						
 					</h2>
 				</a>
 			</div>	
@@ -28,7 +28,7 @@
 			<div class="para2">
 				<a href="colombo-galle-face-green.php">
 					<h2>
-						GALLE FACE GREEN
+					Analyser et regrouper les collaborateurs éligibles au emplois publiés
 					</h2>
 				</a>
 			</div>	
@@ -39,7 +39,7 @@
 			<div class="para1">
 				<a href="colombo-viharamahadevi-park.php">
 					<h2>
-						VIHARAMAHADEVI PARK
+					Donner la possibilité aux collaborateurs d’ajouter des compétences sur sa fiche personnel<br>et<br>Proposer des formations aux collaborateurs (plateforme d’apprentissage).
 					</h2>
 				</a>
 			</div>	
