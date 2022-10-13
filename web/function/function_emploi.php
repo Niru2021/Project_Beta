@@ -28,7 +28,7 @@ function ajout_emploi()
             </tr>
             <tr>  
                 <td>
-                    Service :
+                    Domaine :
                 </td>
                 <td>
                     <select name='domaine_du_poste' required >";

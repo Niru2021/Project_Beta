@@ -17,7 +17,7 @@
     border-radius: 20px;
 }
 .emploi_1_2:hover{
-    background-color: #EEE;
+    background-color: #f6f6f9;
     color: #006EB0;
 }
 
@@ -27,8 +27,12 @@
     margin: auto;
     margin-top: 3%;
     border-spacing: 5px 1.2rem;
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.8);
-    background-color: #eee;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
     color: #006EB0;
     padding: 1% 2%;
+    border-radius: 30px;
+}
+.emploi_2_1:hover{
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 }
