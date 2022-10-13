@@ -28,10 +28,21 @@ function ajout_emploi()
             </tr>
             <tr>  
                 <td>
-                        Mot de passe iPhone :
+                    Service :
                 </td>
                 <td>
-                    <input type='text' name = 'mdp_iphone_change_remise_telephone_stock' required class='change_3_4' id='mdp_iphone_change_remise_telephone_stock' maxlength='20'>
+                    <select name='domaine_du_poste' required >";
+                    $sql = "select lb_domaine from tb_competences GROUP BY lb_domaine";
+                    $conn = conn_bdd();
+                    $result = sqlsrv_query($conn, $sql);
+                    if($result === false) {
+                        die(print_r(sqlsrv_errors(), true));
+                    }
+                    $i=1;
+                    while($row = sqlsrv_fetch_array($result, SQLSRV_FETCH_ASSOC)) {
+                        echo "<option value='".$i."'>".$row['lb_domaine']."</option>";
+                    }
+                    echo"</select>
                 </td>
             </tr>
             <tr>  
