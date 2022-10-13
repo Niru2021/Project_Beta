@@ -3,6 +3,9 @@
 <style>
     :root{
         --color-primary:#7380ec;
+        --color-yellow: #e1d834;
+        --color-apple-green: #cc8c65;
+        --color-blue-light: #65bdcc;
         --color-danger:#ff7782;
         --color-success:#41f1b6;
         --color-warning:#ffbb55;
@@ -59,6 +62,15 @@
     main .insights > div.tauxAbsences img{
         background: var(--color-danger) !important;
     }
+    main .insights > div.employesSurSite img{
+        background: var(--color-yellow) !important;
+    }
+    main .insights > div.employesEnTt img{
+        background: var(--color-apple-green) !important;
+    }
+    main .insights > div.AddCards img{
+        background: var(--color-blue-light) !important;
+    }
 
     main .insights > div .middle{
         display: flex;
@@ -91,9 +103,6 @@
         stroke-dashoffset: 0;
 
     }
-    main .insights .postesAPourvoir svg circle {
-        stroke-dashoffset: 235;
-    }
     main .insights .tauxAbsences svg circle {
         stroke-dashoffset: 249;
     }
@@ -119,21 +128,40 @@
         <h1>Dashboard - Data analyse</h1>
     </div>
 
-
     <div class="insights">
         <div class="employesActif">
-            <span ><img src="./image/user.png"></span>
+            <span><img src="./image/user.png"></span>
             <div class="middle">
                 <div class="left">
                     <h3>Total employés</h3>
-                    <h1>10 300</h1>
+                    <h1>
+                        <?php
+                            $get_col = getCollaborateurs();
+                            echo $get_col['countOfCollaborateurs'];
+                        ?>
+                    </h1>
                 </div>
                 <div class="progress">
                     <svg>
-                        <circle cx="38" cy="38" r="36"></circle>
+                        <circle cx="38" cy="38" r="36"
+                            style="<?php
+                            $get_colCollaborateurs = getCollaborateurs();
+                            $get_colCollaborateur2 = getCollaborateurs();
+                            $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                            $value2 = $get_colCollaborateur2['countOfCollaborateurs'];
+                            calcPourcent($value2, $value1)*2;
+                        ?>stroke-dashoffset: <?=0?>;">></circle>
                     </svg>
                     <div class="number">
-                        <p>100%</p>
+                        <p>
+                            <?php
+                            $get_colCollaborateurs = getCollaborateurs();
+                            $get_colCollaborateur2 = getCollaborateurs();
+                            $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                            $value2 = $get_colCollaborateur2['countOfCollaborateurs'];
+                            echo calcPourcent($value2, $value1);
+                            ?>
+                        %</p>
                     </div>
                 </div>
             </div>
@@ -141,46 +169,182 @@
         </div>
         <!--     End Employés actif   -->
         <div class="postesAPourvoir">
-            <span> <img src="./image/jobs.png"></span>
+            <span><img src="./image/jobs.png"></span>
             <div class="middle">
                 <div class="left">
                     <h3>Total Postes</h3>
-                    <h1>300</h1>
+                    <h1>
+                        <?php $get_colEmploi = getEmploi();
+                            echo $get_colEmploi['countOfEmploi'];
+                        ?>
+                    </h1>
                 </div>
                 <div class="progress">
                     <svg>
-                        <circle cx="38" cy="38" r="36">
-
+                        <circle cx="38" cy="38" r="36"
+                                style="<?php
+                                $get_colCollaborateurs = getCollaborateurs();
+                                $get_colEmploi = getEmploi();
+                                $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                                $value2 = $get_colEmploi['countOfEmploi'];
+                                calcPourcent($value2, $value1)*2;
+                                ?>stroke-dashoffset: <?=250-calcPourcent($value2, $value1)*2?>;">
                         </circle>
                     </svg>
                     <div class="number">
-                        <p>3%</p>
+                        <p><?php
+                                $get_colCollaborateurs = getCollaborateurs();
+                                $get_colEmploi = getEmploi();
+                                $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                                $value2 = $get_colEmploi['countOfEmploi'];
+                                echo calcPourcent($value2, $value1)
+                            ?>
+                        %</p>
                     </div>
                 </div>
             </div>
-            <small class="text-muted">Janvier 2022</small>
+            <small class="text-muted">Source Septembre 2022</small>
         </div>
         <!--     End Postes a pourvoir   -->
         <div class="tauxAbsences">
-            <span ><img src="./image/analytics.png"></span>
+            <span><img src="./image/analytics.png"/></span>
             <div class="middle">
                 <div class="left">
-                    <h3>Taux d'absence Actuel</h3>
-                    <h1>40</h1>
+                    <h3>Total des absences</h3>
+                    <h1><?php
+                            $get_colCollaborateurAbs = getCollaborateursAbs();
+                            echo $get_colCollaborateurAbs['countOfCollaborateursAbs'];
+                        ?>
+                    </h1>
                 </div>
                 <div class="progress">
                     <svg>
-                        <circle cx="38" cy="38" r="36">
-
+                        <circle cx="38" cy="38" r="36"
+                        style="<?php
+                            $get_colCollaborateurs = getCollaborateurs();
+                            $get_colCollaborateurAbs = getCollaborateursAbs();
+                            $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                            $value2 = $get_colCollaborateurAbs['countOfCollaborateursAbs'];
+                            calcPourcent($value2, $value1)*2;
+                            ?>stroke-dashoffset: <?=250-calcPourcent($value2, $value1)*2?>;">
                         </circle>
                     </svg>
                     <div class="number">
-                        <p>0.4%</p>
+                        <p>
+                            <?php
+                                $get_colCollaborateurs = getCollaborateurs();
+                                $get_colCollaborateurAbs = getCollaborateursAbs();
+                                $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                                $value2 = $get_colCollaborateurAbs['countOfCollaborateursAbs'];
+                                echo calcPourcent($value2, $value1);
+                            ?>
+                            %</p>
                     </div>
                 </div>
             </div>
-            <small class="text-muted">au 01 Janvier 2022</small>
+            <small class="text-muted">au 14 Septembre 2022</small>
         </div>
-        <!--     End Taux abs   -->
+        <!--     End Taux absence   -->
+    </div>
+
+    <div class="insights" style="margin-top:5px;">
+        <div class="employesSurSite">
+            <span><img src="./image/build.png"></span>
+            <div class="middle">
+                <div class="left">
+                    <h3>Total employés sur site</h3>
+                    <h1>
+                        <?php
+                        $get_col = getCollaborateursPresentSurSite();
+                        echo $get_col['countOfCollaborateursPresentSurSite'];
+                        ?>
+                    </h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle cx="38" cy="38" r="36"
+                                style="<?php
+                                $get_colCollaborateurs = getCollaborateurs();
+                                $get_colCollaborateurSurSite = getCollaborateursPresentSurSite();
+                                $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                                $value2 = $get_colCollaborateurSurSite['countOfCollaborateursPresentSurSite'];
+                                calcPourcent($value2, $value1)*2;
+                                ?>stroke-dashoffset: <?=250-calcPourcent($value2, $value1)*2?>;">></circle>
+                    </svg>
+                    <div class="number">
+                        <p>
+                            <?php
+                            $get_colCollaborateurs = getCollaborateurs();
+                            $get_colCollaborateurSurSite = getCollaborateursPresentSurSite();
+                            $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                            $value2 = $get_colCollaborateurSurSite['countOfCollaborateursPresentSurSite'];
+                            echo calcPourcent($value2, $value1);
+                            ?>
+                            %</p>
+                    </div>
+                </div>
+            </div>
+            <small class="text-muted">Effectif 2022</small>
+        </div>
+        <!--     End Employés actif   -->
+        <div class="employesEnTt">
+            <span><img src="./image/house.png"></span>
+            <div class="middle">
+                <div class="left">
+                    <h3>Total employés en TT</h3>
+                    <h1>
+                        <?php $get_colCollaborateurTt = getCollaborateursTt();
+                        echo $get_colCollaborateurTt['countOfCollaborateursTt'];
+                        ?>
+                    </h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle cx="38" cy="38" r="36"
+                                style="<?php
+                                $get_colCollaborateurs = getCollaborateurs();
+                                $get_colCollaborateurTt = getCollaborateursTt();
+                                $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                                $value2 = $get_colCollaborateurTt['countOfCollaborateursTt'];
+                                calcPourcent($value2, $value1)*2;
+                                ?>stroke-dashoffset: <?=250-calcPourcent($value2, $value1)*2?>;">
+                        </circle>
+                    </svg>
+                    <div class="number">
+                        <p><?php
+                            $get_colCollaborateurs = getCollaborateurs();
+                            $get_colCollaborateurTt = getCollaborateursTt();
+                            $value1 =  $get_colCollaborateurs['countOfCollaborateurs'];
+                            $value2 = $get_colCollaborateurTt['countOfCollaborateursTt'];
+                            echo calcPourcent($value2, $value1);
+                            ?>
+                            %</p>
+                    </div>
+                </div>
+            </div>
+            <small class="text-muted">Au 14 Septembre 2022</small>
+        </div>
+        <!--     End Postes a pourvoir   -->
+        <div class="AddCards">
+            <span><img src="./image/add_black.png"/></span>
+            <div class="middle">
+                <div class="left">
+                    <h3>Ajouter une analyse</h3>
+                    <h1></h1>
+                </div>
+                <div class="progress">
+                    <svg>
+                        <circle cx="38" cy="38" r="36"
+                                style="stroke-dashoffset: <?=0?>;">
+                        </circle>
+                    </svg>
+                    <div class="number">
+                        <p>-- %</p>
+                    </div>
+                </div>
+            </div>
+            <small class="text-muted">nc</small>
+        </div>
+        <!--     End Taux absence   -->
     </div>
 </main>
