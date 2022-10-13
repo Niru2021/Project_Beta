@@ -11,7 +11,7 @@
 	<?php include("barre de recherche.php");?>
 	<div id="boxes"> 
 		<div class="box1">
-			<img src="img/capital-1-2.jpg" alt="photo du musée national de colombo"
+			<img src="img/sirh.pnj" alt="sirh"
 			title="https://fr.wikipedia.org/wiki/Fichier:PSM_V71_D493_Colombo_city_museum_1896.jpg">
 			<div class="para1">
 				<a href="colombo-musee-national.php">
