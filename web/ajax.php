@@ -8,3 +8,7 @@ else if(isset($_POST['voir_emploi']))
 {
     echo'test2';
 }
+else if(isset($_POST['competence_emploi']))
+{
+    competence_emploi($_POST['competence_emploi']);
+}

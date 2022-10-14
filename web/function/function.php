@@ -16,4 +16,5 @@ function conn_bdd()
 }
 require_once('./commun/variable.php');
 require_once('function_emploi.php');
+require_once('function_data_analyse.php');
 ?>

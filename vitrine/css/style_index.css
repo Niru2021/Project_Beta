@@ -40,8 +40,8 @@
 
 #bas {										/*bandeau du bas*/
 	background:no-repeat center;
-	min-height:500px;
-	max-width:100%;
+	min-height:400px;
+	min-width:100%;
 	clear:both;
 }
 #bas h1{
