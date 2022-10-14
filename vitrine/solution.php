@@ -17,7 +17,7 @@
 				
 					<h2>
 						<p>
-							<br>Des employers remplis de bonne humeur et de créativité
+							<br>Des employés remplis de bonne humeur et de créativité
 
 </br>
 </p>
