@@ -5,7 +5,7 @@
   <body>
 	<?php include("menu.php");?>
 	<section id="showcase" style="background-image: url('img/acceuil.jpg');" 
-	title="https://www.terdav.com/ps-sri-lanka"> 
+	
 		<div class="container">
 			<h1>RH ANALYTICS<br>
 			<span>DATA FOR EMPLOYEE DEVELOPMENT</span></h1>			
@@ -28,7 +28,7 @@ id="gmap_canvas" src="https://maps.google.com/maps?q=epsi%20puteaux&t=&z=13&ie=U
 			</p>
 		</div>
 	</section>
-	<a href="colombo-musee-national.php">
+
 		<section id="bas" style="background-image: url('img/mains.jpg');">
 		<div id="bas-titre">
 			<h1>PRODUIT</h1>

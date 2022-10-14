@@ -56,12 +56,12 @@ fieldset p {
 	margin-left:10%;
 	height:37px 
 	width:200px;
-	background-color:#016B80;
+	background-color: #006EB0;
 	border:0px;
-	color:#016B80;	
+	color:#FFFFFF;	
 }
 #butt-form input[type="submit"]:hover {
-	background-color:#016B80;
+	background-color:#006EB0;
 }
 
 
