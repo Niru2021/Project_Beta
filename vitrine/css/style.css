@@ -57,7 +57,7 @@ header li
 #branding img{
 	height:70px;
 }
-header nav{
+.nav{
 	float:right;
 }
 .dropbtn {	
@@ -68,11 +68,11 @@ header nav{
 	font-size:25px;
 }
 
-li a, .dropbtn {
+.dropbtn {
 	background-color: rgba(0,0,0,0);
 	color: #000;
 	text-align: center;
-    padding: 28px 3px 28px 3px;
+    padding: 30px 3px 30px 3px;
     text-decoration: none;
 	border-color: rgba(0,0,0,0);
 	font-size:150%;
@@ -80,10 +80,9 @@ li a, .dropbtn {
 	font-weight:bold;
 	margin:0px;
 }
-li a:hover, .dropdown:hover .dropbtn, .dropdown-content a:hover{
+.dropbtn:hover, .dropdown-content a:hover{
     background-color: #006EB0;
 	color: white;
-	border:0px;
 }
 
 li.dropdown {
