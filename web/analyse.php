@@ -68,7 +68,7 @@
     main .insights > div.employesEnTt img{
         background: var(--color-apple-green) !important;
     }
-    main .insights > div.AddCards img{
+    main .insights > div.employesCompatible img{
         background: var(--color-blue-light) !important;
     }
 
@@ -325,25 +325,25 @@
             <small class="text-muted">Au 14 Septembre 2022</small>
         </div>
         <!--     End Postes a pourvoir   -->
-        <div class="AddCards">
-            <span><img src="./image/add_black.png"/></span>
+        <div class="employesCompatible">
+            <span><img src="./image/join.png"></span>
             <div class="middle">
                 <div class="left">
-                    <h3>Ajouter une analyse</h3>
-                    <h1></h1>
+                    <h3>Profils interne compatible</h3>
+                    <h1>3</h1>
                 </div>
                 <div class="progress">
                     <svg>
                         <circle cx="38" cy="38" r="36"
-                                style="stroke-dashoffset: <?=0?>;">
+                                style="stroke-dashoffset:205;">
                         </circle>
                     </svg>
                     <div class="number">
-                        <p>-- %</p>
+                        <p>25%</p>
                     </div>
                 </div>
             </div>
-            <small class="text-muted">nc</small>
+            <small class="text-muted">Au 14 Septembre 2022</small>
         </div>
         <!--     End Taux absence   -->
     </div>
