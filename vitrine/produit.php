@@ -12,22 +12,22 @@
 	<div id="boxes"> 
 		<div class="box1">
 			<img src="img/sirh.png" alt="sirh"
-			title="https://fr.wikipedia.org/wiki/Fichier:PSM_V71_D493_Colombo_city_museum_1896.jpg">
+		
 			<div class="para1">
-				<a href="colombo-musee-national.php">
-					<h2>
-					Analyse des données SIRH afin de modéliser graphiquement ou quantifier celle-ci
-						
-					</h2>
+				
+					<br><br><br>
+					<h2>Analyse des données SIRH afin de modéliser graphiquement ou quantifier celle-ci
+</h2>
+					
 				</a>
 			</div>	
 		</div>
 		<div class="box2">
 			<img src="img/competence.jpg" alt="competence"
-			title="https://ja.m.wikipedia.org/wiki/ファイル:Colombo_-_Galle_Face.jpg">
+
 			<div class="para2">
-				<a href="colombo-galle-face-green.php">
-					<h2>
+		
+					<h2><br><br><br><br>
 					Analyser et regrouper les collaborateurs éligibles au emplois publiés
 					</h2>
 				</a>
@@ -35,9 +35,8 @@
 		</div>
 		<div class="box1">
 			<img src="img/learning.jpg" alt="learning"
-			title="https://www.flickr.com/photos/davidstanleytravel/43700702964">
 			<div class="para1">
-				<a href="colombo-viharamahadevi-park.php">
+			
 					<h2>
 					Ajouter ses compétences sur sa fiche personnel<br>et<br>Proposer des formations aux collaborateurs (plateforme d’apprentissage).
 					</h2>
